@@ -26,6 +26,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Anotações","folderPath":"folders/Anotações.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensões","folderPath":"folders/Extensões.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Objetos/player.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,6 +36,8 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "RoomOrderNodes": [
