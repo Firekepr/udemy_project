@@ -34,10 +34,10 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
