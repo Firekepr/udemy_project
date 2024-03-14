@@ -1,12 +1,10 @@
-
-//(Captar o movimento | get input)
-get_inputs();
-
-//(Calcular o movimento | calculate movement)
-calc_movement();
-
-//(Apply movement | Aplicar o movimento)
-collision();
-
-//(Apply animations | Aplicar animações)
-animation();
+// (Execute state | Executar com base no estado)
+switch (state) {
+	case STATES.IDLE:
+		script_execute(player_idle_state);
+	break;
+	
+	case STATES.WALK:
+		script_execute(player_walk_state);
+	break;
+}

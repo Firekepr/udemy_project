@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "animation",
+  "name": "player_idle_state",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
