@@ -18,5 +18,15 @@
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"player","order":1,"path":"folders/Objetos/player.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_block","order":4,"path":"sprites/spr_player_block/spr_player_block.yy",},
+    {"name":"spr_player_walk","order":9,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"spr_player_attack_walk","order":3,"path":"sprites/spr_player_attack_walk/spr_player_attack_walk.yy",},
+    {"name":"spr_player_idle","order":7,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_player_crouch","order":5,"path":"sprites/spr_player_crouch/spr_player_crouch.yy",},
+    {"name":"spr_player_attack","order":2,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
+    {"name":"spr_player_jump","order":8,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_player_crouch_block","order":6,"path":"sprites/spr_player_crouch_block/spr_player_crouch_block.yy",},
+    {"name":"spr_player_air_attack","order":1,"path":"sprites/spr_player_air_attack/spr_player_air_attack.yy",},
+  ],
 }
