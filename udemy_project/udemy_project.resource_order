@@ -17,6 +17,7 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
+    {"name":"player","order":4,"path":"folders/Scripts/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_block","order":4,"path":"sprites/spr_player_block/spr_player_block.yy",},

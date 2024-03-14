@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sons","folderPath":"folders/Sons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Scripts/player.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
