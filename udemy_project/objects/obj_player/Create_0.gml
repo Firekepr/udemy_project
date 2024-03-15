@@ -15,6 +15,7 @@ left = 0;
 right = 0;
 up = 0;
 down = 0;
+attack = 0;
 
 //(States | Estados)
 state = STATES.IDLE;

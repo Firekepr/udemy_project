@@ -7,8 +7,12 @@ function player_idle_state() {
 	calc_movement();
 	
 	// (Check player state | Checar os estado do player)
-	
 	if (horizontal_speed != 0) state = STATES.WALK;
+	
+	if (attack) {
+		state = STATES.ATTACK;
+		image_index = 0;
+	}
 
 	// (Apply movement | Aplicar o movimento)
 	collision();
