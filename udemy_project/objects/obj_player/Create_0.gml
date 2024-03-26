@@ -4,6 +4,9 @@ vertical_speed = 0;
 max_horizontal_speed = 2;
 walk_speed = 1.5;
 
+vertical_speed_decimal = 0;
+horizontal_speed_decimal = 0;
+
 //(Fricção/friction)
 drag = .12;
 
