@@ -2,6 +2,7 @@
 //(Calcular o movimento | calculate movement)
 function calc_movement() {
 	horizontal_speed += (right - left) * walk_speed;
+	vertical_speed += global.grav;
 
 	//(Drag | Fricção)
 	horizontal_speed = lerp(horizontal_speed, 0, drag);
