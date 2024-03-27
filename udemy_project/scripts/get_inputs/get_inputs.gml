@@ -6,5 +6,5 @@ function get_inputs() {
 	up     = keyboard_check(vk_up);
 	attack = keyboard_check_pressed(vk_shift);
 	jump   = keyboard_check_pressed(vk_space);
-
+	block  = keyboard_check(ord("Z"));
 }

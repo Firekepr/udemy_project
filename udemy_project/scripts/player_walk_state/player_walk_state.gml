@@ -18,6 +18,11 @@ function player_walk_state() {
 		state = STATES.JUMP;
 		vertical_speed = jump_speed;	
 	}
+	
+	if (block) {
+		state = STATES.BLOCK;
+		horizontal_speed = 0;
+	}
 
 	// (Apply movement | Aplicar o movimento)
 	collision();
