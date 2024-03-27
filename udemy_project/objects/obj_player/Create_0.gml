@@ -3,6 +3,7 @@ horizontal_speed = 0;
 vertical_speed = 0;
 max_horizontal_speed = 2;
 walk_speed = 1.5;
+jump_speed = -5;
 
 vertical_speed_decimal = 0;
 horizontal_speed_decimal = 0;
@@ -19,6 +20,7 @@ right = 0;
 up = 0;
 down = 0;
 attack = 0;
+jump = 0;
 
 //(States | Estados)
 state = STATES.IDLE;
