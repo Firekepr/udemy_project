@@ -49,6 +49,7 @@
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"scr_player_jumped","path":"scripts/scr_player_jumped/scr_player_jumped.yy",},},
     {"id":{"name":"tile_set0","path":"tilesets/tile_set0/tile_set0.yy",},},
     {"id":{"name":"spr_player_attack_walk","path":"sprites/spr_player_attack_walk/spr_player_attack_walk.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},

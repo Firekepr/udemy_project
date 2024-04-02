@@ -26,10 +26,8 @@ function player_block_state() {
 		}
 	}
 	
-	if (jump) {
-		state = STATES.JUMP;
-		vertical_speed = jump_speed;	
-	}
+	// (Enable double jump | Ativa o double jump)
+	if (jump) scr_player_jumped();
 	
 
 	// (Apply movement | Aplicar o movimento)

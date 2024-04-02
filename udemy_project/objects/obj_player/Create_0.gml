@@ -1,10 +1,12 @@
 //(Velocidades / speeds)
-horizontal_speed = 0;
-vertical_speed = 0;
-max_horizontal_speed = 2;
-walk_speed = 1.5;
-jump_speed = -5;
-jump_dampner = 2.5;
+horizontal_speed		= 0;
+vertical_speed			= 0;
+max_horizontal_speed	= 2;
+walk_speed				= 1.5;
+jump_speed				= -5;
+jump_dampner			= 2.5;
+jumps_initial           = 2;
+jumps					= 2
 
 vertical_speed_decimal = 0;
 horizontal_speed_decimal = 0;

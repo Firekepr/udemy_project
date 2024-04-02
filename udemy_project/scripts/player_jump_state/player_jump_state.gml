@@ -21,6 +21,9 @@ function player_jump_state() {
 		image_index = 0;
 	}
 	
+	// (Enable double jump | Ativa o double jump)
+	if (jump) scr_player_jumped();
+	
 	// (Enable smaller jumps)
 	if (vertical_speed < 0 and !jump_held) {
 		vertical_speed = max(vertical_speed, jump_speed/jump_dampner);

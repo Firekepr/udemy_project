@@ -14,10 +14,7 @@ function player_idle_state() {
 		image_index = 0;
 	}
 	
-	if (jump) {
-		state = STATES.JUMP;
-		vertical_speed = jump_speed;	
-	}
+	if (jump) scr_player_jumped();
 	
 	if (block) {
 		state = STATES.BLOCK;
