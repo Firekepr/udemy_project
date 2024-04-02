@@ -20,6 +20,11 @@ function player_jump_state() {
 		state = STATES.ATTACK;
 		image_index = 0;
 	}
+	
+	// (Enable smaller jumps)
+	if (vertical_speed < 0 and !jump_held) {
+		vertical_speed = max(vertical_speed, jump_speed/jump_dampner);
+	}
 
 	// (Apply movement | Aplicar o movimento)
 	collision();
