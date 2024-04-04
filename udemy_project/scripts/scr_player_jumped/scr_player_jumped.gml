@@ -6,5 +6,6 @@ function scr_player_jumped() {
 		state = STATES.JUMP;
 		vertical_speed = jump_speed;
 		jumps -= 1;
+		scr_jump_dust();
 	}
 }

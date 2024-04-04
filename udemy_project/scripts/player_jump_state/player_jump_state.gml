@@ -14,6 +14,10 @@ function player_jump_state() {
 		} else {
 			state = STATES.IDLE;
 		}		
+		
+		if (vertical_speed > 0) {
+			instance_create_layer(x, y, "dust", obj_player_dust_land);
+		}
 	} 
 	
 	if (attack) {
