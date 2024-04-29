@@ -46,6 +46,7 @@
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
     {"id":{"name":"obj_player_dust_jump","path":"objects/obj_player_dust_jump/obj_player_dust_jump.yy",},},
     {"id":{"name":"scr_on_ground","path":"scripts/scr_on_ground/scr_on_ground.yy",},},
+    {"id":{"name":"scr_block_check","path":"scripts/scr_block_check/scr_block_check.yy",},},
     {"id":{"name":"player_attack_state","path":"scripts/player_attack_state/player_attack_state.yy",},},
     {"id":{"name":"obj_player_dust_land","path":"objects/obj_player_dust_land/obj_player_dust_land.yy",},},
     {"id":{"name":"spr_player_dust_land","path":"sprites/spr_player_dust_land/spr_player_dust_land.yy",},},

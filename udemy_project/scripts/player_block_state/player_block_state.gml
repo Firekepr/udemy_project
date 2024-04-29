@@ -7,23 +7,13 @@ function player_block_state() {
 	// (Calcular o movimento | calculate movement)
 	calc_movement();	
 	
+	// (Blocking | Bloqueando)
+	scr_block_check();
+	
+	// (Attacking | Atacando) - must be call after block validation
 	if (attack) {
 		state = STATES.ATTACK;
 		image_index = 0;
-	}
-	
-	if (block) {		
-		horizontal_speed = 0;
-	} else {
-		if (horizontal_speed != 0) {
-			if (!scr_on_ground()) {
-				state = STATES.JUMP;
-			} else {
-				state = STATES.WALK;
-			} 
-		} else {
-			state = STATES.IDLE;
-		}
 	}
 	
 	// (Enable double jump | Ativa o double jump)

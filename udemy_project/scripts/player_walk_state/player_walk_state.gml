@@ -31,6 +31,11 @@ function player_walk_state() {
 		state = STATES.BLOCK;
 		horizontal_speed = 0;
 	}
+	
+	if (down) {
+		state = STATES.CROUCH;
+		horizontal_speed = 0;
+	}
 
 	// (Apply movement | Aplicar o movimento)
 	collision();
