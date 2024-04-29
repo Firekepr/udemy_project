@@ -1,6 +1,7 @@
 
 function animation() {
 	sprite_index = sprites_array[state];
+	mask_index = hitbox_array[state];
 	image_xscale = facing;
 	
 	

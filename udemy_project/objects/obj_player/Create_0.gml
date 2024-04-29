@@ -49,6 +49,7 @@ states_array[STATES.BLOCK]			= player_block_state;
 states_array[STATES.CROUCH]			= player_crouch_state;
 states_array[STATES.CROUCH_BLOCK]	= player_crouch_block_state;
 
+// (Sprite arrays | Lista de sprites) --> scr_animation
 sprites_array[STATES.IDLE]			= spr_player_idle;
 sprites_array[STATES.WALK]			= spr_player_walk;
 sprites_array[STATES.JUMP]			= spr_player_jump;
@@ -56,3 +57,13 @@ sprites_array[STATES.ATTACK]		= spr_player_attack;
 sprites_array[STATES.BLOCK]			= spr_player_block;
 sprites_array[STATES.CROUCH]		= spr_player_crouch;
 sprites_array[STATES.CROUCH_BLOCK]	= spr_player_crouch_block;
+
+// (HitBox arrays | Lista de hitboxes) --> scr_animation
+hitbox_array[STATES.IDLE]			= spr_player_idle;
+hitbox_array[STATES.WALK]			= spr_player_idle;
+hitbox_array[STATES.JUMP]			= spr_player_idle;
+hitbox_array[STATES.ATTACK]			= spr_player_idle;
+hitbox_array[STATES.BLOCK]			= spr_player_idle;
+hitbox_array[STATES.CROUCH]			= spr_player_crouch;
+hitbox_array[STATES.CROUCH_BLOCK]	= spr_player_crouch_block;
+
