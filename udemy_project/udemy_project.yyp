@@ -21,7 +21,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Objetos/player.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TileSets","folderPath":"folders/Objetos/TileSets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Scripts/player.yy",},
@@ -42,6 +41,7 @@
   },
   "resources": [
     {"id":{"name":"spr_player_block","path":"sprites/spr_player_block/spr_player_block.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
     {"id":{"name":"obj_player_dust_jump","path":"objects/obj_player_dust_jump/obj_player_dust_jump.yy",},},
@@ -68,6 +68,7 @@
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
     {"id":{"name":"spr_player_crouch_block","path":"sprites/spr_player_crouch_block/spr_player_crouch_block.yy",},},
     {"id":{"name":"player_crouch_block_state","path":"scripts/player_crouch_block_state/player_crouch_block_state.yy",},},
+    {"id":{"name":"rm_initialization","path":"rooms/rm_initialization/rm_initialization.yy",},},
     {"id":{"name":"spr_tile_castle","path":"sprites/spr_tile_castle/spr_tile_castle.yy",},},
     {"id":{"name":"spr_player_air_attack","path":"sprites/spr_player_air_attack/spr_player_air_attack.yy",},},
     {"id":{"name":"player_idle_state","path":"scripts/player_idle_state/player_idle_state.yy",},},
@@ -78,6 +79,7 @@
     {"id":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_initialization","path":"rooms/rm_initialization/rm_initialization.yy",},},
     {"roomId":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "templateType": "game",

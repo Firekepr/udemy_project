@@ -27,6 +27,9 @@ jump		= 0;
 jump_held	= 0;
 block		= 0;
 
+// Camera
+obj_camera.follow = obj_player;
+
 //(States | Estados)
 state = STATES.IDLE;
 
